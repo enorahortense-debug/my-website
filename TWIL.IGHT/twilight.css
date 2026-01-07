@@ -1,0 +1,95 @@
+body {
+    background-color: #111;
+    color: white;
+    font-family: Arial, sans-serif;
+    padding: 40px;
+}
+
+.book-page {
+    display: flex;
+    gap: 40px;
+}
+
+/* Image takes about 1/4 of the page */
+.book-image {
+    width: 25%;
+}
+
+.book-image img {
+    width: 100%;
+}
+
+.book-info {
+    width: 75%;
+}
+
+.year {
+    color: #ccc;
+}
+
+.resume {
+    margin-top: 20px;
+    line-height: 1.5;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #444;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #666;
+}
+body {
+    /* Dark, appealing background */
+    background: linear-gradient(to bottom right, #1c1c2e, #2a2a4d, #3b3b6d);
+    color: white;          /* ensures text is visible */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    min-height: 100vh;
+}
+.quantity-selector {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    margin-right: 15px;
+}
+
+.quantity-selector button {
+    padding: 5px 12px;
+    font-size: 16px;
+    background-color: #444;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.quantity-selector button:hover {
+    background-color: #666;
+}
+
+#quantity {
+    min-width: 20px;
+    text-align: center;
+    font-size: 16px;
+}
+.back-to-catalogue {
+    margin-top: 20px;
+}
+
+.back-to-catalogue .back-button {
+    padding: 10px 20px;
+    background-color: #444;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.back-to-catalogue .back-button:hover {
+    background-color: #666;
+}

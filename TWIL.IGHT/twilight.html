@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Twilight – Book Info</title>
+    <link rel="stylesheet" href="twilight.css">
+</head>
+<body>
+
+<div class="book-page">
+
+    <!-- Left: Book image -->
+    <div class="book-image">
+        <img src="Twilight.jpg" alt="Twilight Book">
+    </div>
+
+    <!-- Right: Book info -->
+    <div class="book-info">
+        <h1>Twilight</h1>
+        <p class="year">Published: 2005</p>
+
+        <p class="resume">
+           Twilight tells the story of Bella Swan, a teenage girl who moves
+            from Phoenix to the rainy town of Forks, Washington, to live with
+             her father. There, she meets Edward Cullen, a mysterious and handsome
+              student who turns out to be a vampire. Despite the danger, Bella and 
+              Edward fall deeply in love, navigating the challenges of a human-vampire
+               relationship. As their romance grows, Bella discovers the secrets of Edward’s
+                family and faces threats from other vampires, learning about loyalty, courage,
+                 and the complexities of love.
+                 </p>
+
+        <!-- Language selection -->
+        <label for="language">Select your Language:</label>
+        <select id="language">
+            <option>English</option>
+            <option>French</option>
+            <option>Spanish</option>
+        </select>
+
+        <br><br>
+
+        <!-- Add to cart -->
+        <button onclick="addToCart()">Add to Cart</button>
+
+        <p id="cart-message"></p>
+    </div>
+
+</div>
+
+<script src ="script.js"></script>
+</script>
+<div class="quantity-selector">
+    <button onclick="decrease()">&#60;</button>
+    <span id="quantity">0</span>
+    <button onclick="increase()">&#62;</button>
+
+</div>
+<div class="back-to-catalogue">
+    <a href="catalog.html" class="back-button">Go Back to Catalogue</a>
+</div>
+
+
+
+</body>
+</html>
